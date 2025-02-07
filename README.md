@@ -1,34 +1,20 @@
-# My Frontend Project
+# My Frontend Learning Project
 
-Welcome to my frontend project! This project is built using **HTML**, **CSS**, and **JavaScript** to create a responsive and interactive website.
-
-![Project Screenshot](./images/screenshot.png) <!-- Add a screenshot of your project -->
+Welcome to my **Frontend Learning Project**! This is a personal project where I’m learning and practicing **HTML**, **CSS**, and **JavaScript** to build a responsive and interactive website.
 
 ---
 
-## Table of Contents
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
-
----
-
-## Features
-- **Responsive Design**: Works on all devices (desktop, tablet, mobile).
-- **Interactive Elements**: Built with JavaScript for dynamic user interactions.
-- **Modern Styling**: Clean and modern design using CSS Flexbox and Grid.
-- **Easy to Customize**: Well-structured code for easy modifications.
-
----
-
-## Technologies Used
+## About This Project
+This project is part of my journey to learn frontend development. It includes:
 - **HTML**: For structuring the content.
 - **CSS**: For styling and layout.
 - **JavaScript**: For interactivity and dynamic behavior.
 
 ---
+
+## Features I'm Going To Add
+- **Responsive Design**: Make it work on multiple different devices
+- **Interactive Elements**: Learn Javascript to make my website more interactive
+- **Modern Styling**: Learn CSS to customise the website to my liking
+- **Learning-Focused**: A playground for experimenting with frontend technologies.
 
