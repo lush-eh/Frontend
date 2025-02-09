@@ -53,8 +53,10 @@
     <!--Learned how forms works and made placeholders which show what that input should be like-->
     <p>Apply here:</p>
     <form>
+      <!--for a field to be required just put "required"-->
       <label for="fname">Name:</label>
       <input
+        required
         type="text"
         id="fname"
         name="Fullname"
@@ -63,6 +65,7 @@
 
       <label for="email">Email:</label>
       <input
+        required
         type="text"
         id="email"
         name="Email"
@@ -71,6 +74,7 @@
 
       <label for="number">Phone Number:</label>
       <input
+        required
         type="text"
         id="number"
         name="Number"
@@ -80,7 +84,7 @@
 
       <!--How a drop down works-->
       <label for="testing">Choose the better one:</label>
-      <select id="testing" name="dropdown">
+      <select required id="testing" name="dropdown">
         <option value="" disabled selected>e.g Yo gangan</option>
         <option>Yo nana</option>
         <option>Yo mama</option>
@@ -89,8 +93,16 @@
       </select>
       <br /><br />
 
+      <!--Would submit the details from the form when done-->
       <input type="submit" />
     </form>
+    <br /><br />
+
+    <!--This is how videos work! Control attribute allows play/stop stuff-->
+    <video controls>
+      <source src="videos/video.mp4" type="video/mp4" />
+      Video not supported
+    </video>
 
     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
