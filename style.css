@@ -53,9 +53,8 @@ footer {
   /* Stick to bottom */
 }
 
-
 /* Takes care of the button colours */
-.button{
+.button {
   background-color: #6a0dad;
   /* Button color */
   color: #fff;
@@ -67,7 +66,6 @@ footer {
   border-radius: 5px;
   /* Rounded corners */
   text-decoration: none;
-
 }
 
 .button:hover {
