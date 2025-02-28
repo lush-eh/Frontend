@@ -12,9 +12,11 @@ body {
 }
 
 h1 {
-  font-family: sans-serif;
-  font-size: xx-large;
-  color: cadetblue;
+  color: #6a0dad;
+  /* Purple color */
+  font-size: 2.5em;
+  /* Slightly smaller font size */
+  margin-bottom: 20px;
 }
 
 .image-container {
@@ -29,7 +31,6 @@ h1 {
   border-radius: 50px;
 }
 
-.main-nav,
 .languages,
 .categorie,
 .coding {
@@ -44,13 +45,11 @@ h1 {
 
 footer {
   background-color: #5b2e91;
-  /* Footer color */
   padding: 10px;
   text-align: center;
   width: 100%;
-  position: relative;
-  bottom: 0;
-  /* Stick to bottom */
+  position: fixed;
+  bottom: 0; /* Ensure the cursor is not a pointer */
 }
 
 /* Takes care of the button colours */
@@ -59,7 +58,7 @@ footer {
   /* Button color */
   color: #fff;
   border: none;
-  padding: 15px 25px;
+  padding: 20px 25px;
   margin: 10px;
   font-size: 1em;
   text-transform: uppercase;
