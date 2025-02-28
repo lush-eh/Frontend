@@ -49,7 +49,8 @@ footer {
   text-align: center;
   width: 100%;
   position: fixed;
-  bottom: 0; /* Ensure the cursor is not a pointer */
+  bottom: 0; 
+  margin-top: auto;/* Ensure the cursor is not a pointer */
 }
 
 /* Takes care of the button colours */
