@@ -7,112 +7,40 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav>
-      <a href="#test">Go Down to test</a>
+    <nav class="main-nav">
+      <a href="#test">Go Down to Links</a>
     </nav>
 
-    <!--Title, h1 most important-->
-    <br />
-    <h1>Hello or sm</h1>
-    <br />
+    <div style="text-align: center">
+      <h1>About Me or Something</h1>
 
-    <p>
-      <!--italics-->
-      <i>bruh</i><br />
-      No way
-    </p>
-    <a href="https://google.com">No</a>
+      <p>This is lush</p>
+      <div class="image-container">
+        <img src="images/the.png" alt="this might be lush idk" />
+        <div class="footer-text">lush who's a bush</div>
+        <br />
+        <audio controls>
+          <source
+            src="audios/spotidownloader.com - stephanie - Eem Triplin.mp3"
+            type="audio/mp3"
+          />
+        </audio>
+      </div>
+    </div>
 
-    <!--Lists can be nested in lists:
-      1. banana
-          -Banana
-          -two
-      2. chicken
-      etc.
-    -->
-    <ol>
-      <li>one banana</li>
-      <ul>
-        <li>This list is nested inside</li>
-        <li>Another list!</li>
-      </ul>
-      <li>two banana</li>
-      <li>three banana</li>
-    </ol>
-    <ul>
-      <li>four banana</li>
-      <li>five banana</li>
-      <li>six banana</li>
-    </ul>
-    <br />
-    <img src="images/the.png" alt="this is lush" />
-    <br />
-    <button>Don't Click</button>
     <br /><br />
 
-    <!--Learned how forms works and made placeholders which show what that input should be like-->
-    <p>Apply here:</p>
-    <form>
-      <!--for a field to be required just put "required"-->
-      <label for="fname">Name:</label>
-      <input
-        required
-        type="text"
-        id="fname"
-        name="Fullname"
-        placeholder="e.g John Doe"
-      /><br /><br />
-
-      <label for="email">Email:</label>
-      <input
-        required
-        type="text"
-        id="email"
-        name="Email"
-        placeholder="example@domain.com"
-      /><br /><br />
-
-      <label for="number">Phone Number:</label>
-      <input
-        required
-        type="text"
-        id="number"
-        name="Number"
-        placeholder="e.g 07354232124"
-      /><br /><br />
-      <!--Add more if wanted-->
-
-      <!--How a drop down works-->
-      <label for="testing">Choose the better one:</label>
-      <select required id="testing" name="dropdown">
-        <option value="" disabled selected>e.g Yo gangan</option>
-        <option>Yo nana</option>
-        <option>Yo mama</option>
-        <!--more options if wanted to-->
-        <option>Yo dada</option>
-      </select>
-      <br /><br />
-
-      <!--Would submit the details from the form when done-->
-      <input type="submit" />
-    </form>
-    <br /><br />
 
     <!--This is how videos work! Control attribute allows play/stop stuff-->
-    <video controls>
-      <source src="videos/video.mp4" type="video/mp4" />
-      Video not supported
-    </video>
+    <div class = "categorie">
+      <a href="why.html" class="button">About Us</a>
+    </div>
 
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-    <!--Website hypertext-->
-    <p>
-      Check out my website through
-      <a id="test" href="https://katalyst.top">Website link</a>
-    </p>
 
-    <footer>@2025 Katalyst</footer>
+    <!--Add Heaers footers and main to organise the whole thing later-->
+    <footer class="footer-duh">@2025 Katalyst. No right reserved</footer>
     <script src="script.js"></script>
   </body>
 </html>
