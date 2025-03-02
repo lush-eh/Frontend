@@ -32,9 +32,17 @@ h1 {
 }
 
 .languages,
-.categorie,
 .coding {
   text-align: center;
+}
+
+.categorie {
+  display: flex;
+  flex-wrap: wrap; /* Ensures proper wrapping on smaller screens */
+  gap: 10px; /* Adds spacing between buttons */
+  justify-content: center; /* Centers buttons */
+  align-items: center;
+  padding: 10px;
 }
 
 #website-link {
@@ -55,17 +63,15 @@ footer {
 
 /* Takes care of the button colours */
 .button {
-  background-color: #6a0dad;
-  /* Button color */
-  color: #fff;
-  border: none;
-  padding: 20px 25px;
-  margin: 10px;
-  font-size: 1em;
-  text-transform: uppercase;
-  border-radius: 5px;
-  /* Rounded corners */
   text-decoration: none;
+  background-color: #6a0dad;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: center;
+  transition: 0.3s;
+  min-width: 150px; /* Ensures a decent button size */
 }
 
 .button:hover {
@@ -77,5 +83,10 @@ footer {
   .categorie {
     flex-direction: column;
     align-items: center;
+  }
+
+  .button {
+    width: 90%;
+    max-width: 300px;
   }
 }
