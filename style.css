@@ -79,12 +79,17 @@ footer {
   /* Darker shade on hover */
 }
 
+.todo_images {
+  vertical-align: middle; /* Aligns with text */
+  width: 35px;
+  height: 35px;
+}
+
 @media (max-width: 600px) {
   .categorie {
     flex-direction: column;
     align-items: center;
   }
-
   .button {
     width: 90%;
     max-width: 300px;
