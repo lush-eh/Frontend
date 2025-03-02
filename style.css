@@ -49,8 +49,8 @@ footer {
   text-align: center;
   width: 100%;
   position: fixed;
-  bottom: 0; 
-  margin-top: auto;/* Ensure the cursor is not a pointer */
+  bottom: 0;
+  margin-top: auto; /* Ensure the cursor is not a pointer */
 }
 
 /* Takes care of the button colours */
@@ -71,4 +71,11 @@ footer {
 .button:hover {
   background-color: #4b0082;
   /* Darker shade on hover */
+}
+
+@media (max-width: 600px) {
+  .categorie {
+    flex-direction: column;
+    align-items: center;
+  }
 }
